@@ -127,10 +127,12 @@ section.callaction {
     margin: 5px;
     margin-bottom: 50px;
     width: 300px;
+	height: 270px;
     padding: 20px;
     line-height: 20px;
     color: #8e8b8b;
     position: relative;
+	border-radius: 40px;
 }
 
 .team .team_member h3 {
@@ -972,7 +974,7 @@ ul.social-network li {
         border-radius:50%;
     bottom:0px;
     right:20px;
-	background:#008000;
+	background:	rgb(152,251,152);
 	
 }
 
