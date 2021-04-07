@@ -1,4 +1,5 @@
 
+         
 
 
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
@@ -162,6 +163,14 @@ section.callaction {
     height: 100px;
     padding: 10px;
 }
+
+
+/*history and vision*/
+.one { list-style-type: disc; }
+.two { list-style-type: circle; }
+.three { list-style-type: square; }
+.four { list-style-type: none; }
+
 
 
 
