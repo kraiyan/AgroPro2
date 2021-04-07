@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact AgroPro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="index.html"><img src="img/agroprologo.jpg" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li> 
+						<li><a href="about.html">About FPO && FPC</a></li>
+						<li><a href=#>Products</a></li>
+                        <li><a href=#>Services </a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header><!-- end header -->
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2  style="color: #000000;" class="pageTitle">Contact AgroPro</h2>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="content">
+	
+	<div class="container">
+	<div class="row"> 
+							<div class="col-md-12">
+								<div class="about-logo">
+									<h3 style="color:#228B22" >Contact now for joining our FPC!!</h3>
+									<p>Our farmer who provides us with the food we eat needs to gets everything that he requires for his farming and personal needs with ease. Moreover, they need to reach him at the right time, at the right price and should be of the right quality.</p>
+                                    	
+								</div> 
+							</div>
+						</div>
+	<div class="row">
+								<div class="col-md-12">
+									<p>Please fill out the below given form so that we can contact you for the further steps!!</p>
+									<div class="alert alert-success hidden" id="contactSuccess">
+										<strong>Success!</strong> Your message has been sent to us.
+									</div>
+									<div class="alert alert-error hidden" id="contactError">
+										<strong>Error!</strong> There was an error sending your message.
+									</div>
+									<div class="contact-form">
+										<form  name= "hello" method="post" style="margin-bottom:20px;" id="contact-form" onsubmit="return(checkformvalidity());">
+											<div class="form-group has-feedback">
+												<label for="name">Name*</label>
+												<input type="text" class="form-control" id="name" name="name" placeholder="">
+												<i class="fa fa-user form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback">
+												<label for="email">Email*</label>
+												<input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email address!!">
+												<i class="fa fa-envelope form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback">
+												<label for="subject">Address*</label>
+												<textarea type="text" rows="6" class="form-control" id="subject" name="subject" placeholder="Enter  a valid address !!"></textarea>
+												<i class="fa fa-navicon form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback">
+												<label for="message">Contact No*</label>
+												<input class="form-control"  id="message" name="contact" placeholder="">
+												<i class="fa fa-pencil form-control-feedback"></i>
+											</div>
+									                     <input type="submit" name="submit" value="Submit" />
+										</form>
+									</div>
+								</div>
+
+		<script type="text/javascript">function checkformvalidity(){
+      
+         if( document.hello.name.value == "" ) {
+            alert( "Please provide your name!" );
+                    
+                 return false;
+         }
+         if( document.hello.email.value == "" ) {
+            alert( "Please provide your Email!" );
+           
+
+           }
+                       var emailID = document.hello.email.value;
+                               atpos = emailID.indexOf("@");
+                                 dotpos = emailID.lastIndexOf(".");
+         
+                          if  (document.hello.email != "" && (atpos < 1 || ( dotpos - atpos < 2 ))) {
+                            alert("Please enter valid email ID")
+                            
+                                return false;
+
+         }
+
+
+         if( document.hello.subject.value == "" ) {
+            alert( "Please provide a  valid address !" );
+            
+            return false;
+           }
+        
+                    
+         
+
+         if( document.hello.contact.value == "" || isNaN( document.hello.contact.value )  ) {
+            
+            alert( "Please provide the contact number!! " );
+            return false;
+         }
+        
+        
+         return( true );
+      }
+            
+</script>
+
+ <div class="block-heading-six">
+							<h3 style="   padding 20px 20px 20px; text-align: center; color:#228B22"class="bg-color">Find Us at</h3>
+						</div>
+								
+								<div class="col-lg-12">
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:1130px;"><div id="gmap_canvas" style="height:500px;width:1130px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.trivoo.net" id="get-map-data">trivoo</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(18.93016,72.83028),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(18.93016,72.83028)});infowindow = new google.maps.InfoWindow({content:"<b>Colaba</b><br/>S-21 Mumbai<br/> Maharashtra" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+								</div>
+							</div>
+						
+	</div>
+</div>
+
+ 
+	</section>
+	<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Our Contact</h5>
+							<address>
+								<strong>AgroPro</strong><br>
+								Registered Office : Sr. No. 1102 /08,<br>
+								JC Main Road, Near Silnile tower<br>
+								colaba,Mumbai.
+							</address>
+							
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Contact us</h5>
+							<p>
+								<i class="icon-phone"></i> (+91) 456-789 - 1255-12584 <br>
+								<i class="icon-envelope-alt"></i> email@agropro.com
+							</p>
+						</div>
+					
+					</div>
+
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Quick Links</h5>
+							<ul class="link-list">
+								<li><a href="about.html">About us</a></li>
+								<li><a href="#">Products</a></li>
+								
+								<li><a href="#">Career</a></li>
+								<li><a href="contact.html">Contact us</a></li>
+							</ul>
+						</div>
+					</div>
+					<!----
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Latest posts</h5>
+							<ul class="link-list">
+								<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+								<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+								<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+							</ul>
+						</div>
+					</div>
+				-->
+				<div class="col-lg-3">
+					<div class="widget">
+						<ul class="social-network">
+							<h5 class="widgetheading">Connect to us</h5>
+	
+							<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+							</li>
+							<li><a href="#" data-placement="top" title="Pinterest"><i
+										class="fa fa-pinterest"></i></a></li>
+							<li><a href="#" data-placement="top" title="Google plus"><i
+										class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
+
+	
+				</div>
+
+				<!----
+					<div class="col-lg-3">
+						<div class="widget">
+							<h5 class="widgetheading">Recent News</h5>
+							<ul class="link-list">
+								<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+								<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+								<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+							</ul>
+						</div>
+					</div>
+				-->
+				</div>
+			</div>
+			<div id="sub-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="copyright">
+								<p>
+									<span>&copy; Target 2021 All right reserved. By </span><a
+										href="http://webthemez.com" target="_blank">AgroPro</a>
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+	<!-- javascript
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script> 
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/validate.js"></script>
+</body>
+</html>
